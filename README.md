@@ -1,6 +1,6 @@
-# Laravel Product API
+# Laravel handle scale API
 
-A simple RESTful API built with Laravel to create and list products.
+A simple RESTful API built with Laravel to create and list products with many users.
 
 ## Features
 
