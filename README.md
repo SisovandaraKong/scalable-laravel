@@ -1,21 +1,29 @@
-# Laravel handle scale API
+# Laravel User API
 
-A simple RESTful API built with Laravel to create and list products with many users.
+A simple RESTful API built with Laravel to manage users.
 
 ## Features
 
-- Create a new product with `name` and `price`
-- List all products
+- Create new users with name, email, and password
+- Validation on user creation
+- Passwords are securely hashed
 - JSON responses with clear success and error messages
-- Input validation on product creation
-- No caching — always fetches fresh data
 
 ## Requirements
 
-- PHP >= 8.x  
-- Composer  
-- Laravel 11.x  
-- MySQL or any supported database  
+- PHP >= 8.x
+- Composer
+- Laravel 11.x
+- MySQL or any supported database
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/laravel-user-api.git
+   cd laravel-user-api
+
 
 ## Installation
 
@@ -39,7 +47,7 @@ A simple RESTful API built with Laravel to create and list products with many us
 
 ## API Endpoints
 
-- URL: /api/products
+- URL: /api/users
 
 ## Clone the repository:
 
